@@ -40,6 +40,7 @@ extern dev_t sqfs_makedev(int maj, int min);
 
 extern int sqfs_opt_proc(void* data, const char* arg, int key, struct fuse_args* outargs);
 
+#include <libgen.h>
 #include <limits.h>
 #include <stdlib.h>
 #include <sys/types.h>
